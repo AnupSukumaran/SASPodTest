@@ -1,0 +1,6 @@
+framework module SASPodTest {
+  umbrella header "SASPodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

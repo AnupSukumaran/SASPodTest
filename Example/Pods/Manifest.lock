@@ -1,0 +1,16 @@
+PODS:
+  - SASPodTest (0.1.0)
+
+DEPENDENCIES:
+  - SASPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  SASPodTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SASPodTest: 9bd1c3c8b67a2574285c795560b64c143d0ee960
+
+PODFILE CHECKSUM: 356ac1d31059cbf398f5d984c00124b97d4abee9
+
+COCOAPODS: 1.8.4
