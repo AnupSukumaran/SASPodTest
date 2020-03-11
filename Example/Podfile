@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SASPodTest_Example' do
+  pod 'SASPodTest', :path => '../'
+
+  target 'SASPodTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
