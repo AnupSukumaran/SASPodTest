@@ -15,4 +15,8 @@ public class Service {
         "This is working "
     }
     
+    public static func doSomethingForSecondUpdate() -> String {
+        "This is working For SecondUpdate "
+    }
+    
 }

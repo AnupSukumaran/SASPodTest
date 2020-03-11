@@ -26,13 +26,13 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AnupSukumaran' => 'anup.sukumaran9@gmail.com' }
   s.source           = { :git => 'https://github.com/AnupSukumaran/SASPodTest.git', :tag => s.version.to_s }
+  
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
   
   
-
-  s.source_files = 'SASPodTest/Classes/**/*'
+  s.source_files = "Sources/**/*.swift"
   
   s.swift_version = '5.0'
   
@@ -40,11 +40,4 @@ Pod::Spec.new do |s|
       "ios":"10.0"
   }
   
-  # s.resource_bundles = {
-  #   'SASPodTest' => ['SASPodTest/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
